@@ -1,0 +1,21 @@
+[core]
+	editor = code --wait
+[user]
+  name = #name
+  email = #email
+[credential]
+  # OS X
+  helper = osxkeychain
+[alias]
+	adco = !git add -A && git commit -m
+  c = commit
+	ch = checkout
+  f = fetch --all
+  l = log --graph --date=format-local:'%Y-%m-%d %H:%M:%S' --pretty='%C(auto)%h %d %C(bold)%s%Creset %C(bold blue)<%cn>%Creset %C(dim)%cd%Creset'
+  pd = push downstream
+  pu = pull upstream
+	s = status
+  sta = stash apply
+  std = stash drop
+  stl = stash list
+  stp = stash push -a -m
