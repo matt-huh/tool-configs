@@ -1,0 +1,15 @@
+{
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [ 80 ],
+  "editor.tabSize": 2,
+  "explorer.autoReveal": false,
+  "explorer.openEditors.visible": 0,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false
+}
