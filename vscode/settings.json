@@ -7,9 +7,12 @@
   "explorer.openEditors.visible": 0,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.newWindowDimensions": "inherit",
+  "window.restoreWindows": "all",
   "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
   "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "none",
-  "workbench.editor.enablePreview": false
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
 }
