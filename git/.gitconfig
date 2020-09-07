@@ -1,15 +1,15 @@
 # This is Git's per-user configuration file.
 [core]
-	editor = code --wait
-	ignorecase = false
+  editor = code --wait
+  ignorecase = false
 [user]
-	name = #name
-	email = #email
+  name = #name
+  email = #email
 [alias]
-	adco = !git add -A && git commit -m
+  adco = !git add -A && git commit -m
   amco = !git add -A && git commit --amend --no-edit
   c = commit
-	ch = checkout
+  ch = checkout
   f = fetch --all -p
   l = log --graph --date=format-local:'%Y-%m-%d %H:%M:%S' --pretty='%C(auto)%h %d %C(bold)%s%Creset %C(bold blue)<%cn>%Creset %C(dim)%cd%Creset'
   pd = push downstream
@@ -19,7 +19,7 @@
   ra = rebase --abort
   rc = rebase --continue
   ri = rebase -i
-	s = status
+  s = status
   sta = stash apply
   std = stash drop
   stl = stash list
