@@ -3,14 +3,14 @@
   editor = code --wait
   ignorecase = false
 [user]
-  name = #name
-  email = #email
+  name = matt.huh
+  email = matt.huh@outlook.com
 [alias]
   adco = !git add -A && git commit -m
   amco = !git add -A && git commit --amend --no-edit
   c = commit
   ch = checkout
-  f = fetch --all -p
+  f = fetch --all --prune
   l = log --graph --date=format-local:'%Y-%m-%d %H:%M:%S' --pretty='%C(auto)%h %d %C(bold)%s%Creset %C(bold blue)<%cn>%Creset %C(dim)%cd%Creset'
   pd = push downstream
   pu = pull upstream
